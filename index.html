@@ -1,20 +1,23 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-</head>
-<body>
-  <table>
-    <tr>
-      <td>Home</td>
-      <td>About</td>
-      <td>Art</td>
-      <td>Monsters</td>
-    </tr>
-  </table>
-  <h1>Hi! I'm Ryan</h1>
-  <p>This is some paragraph</p>
-  <footer>
-    <p>This is the footer. You could put a monster here</p>
-  </footer>
-</body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
