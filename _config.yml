@@ -39,10 +39,10 @@ links:
     url: /about
 # projects in header index
 projects:
- # - name: asciilang
- #  url: https://github.com/victorvoid/asciilang
- # - name: vim-frontend
- #   url: https://github.com/victorvoid/vim-frontend
+ - name: Critical Realist Experiments
+   url: https://www.researchgate.net/project/Critical-realist-experiments-in-management-Are-they-even-real
+ - name: Web Games
+    url: https://github.com/ryan-kwan-do/sinatra_project
  # - name: generator-capybara
  #   url: https://github.com/victorvoid/generator-capybara 
 # exclude my node related stuff
