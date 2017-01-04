@@ -1,16 +1,16 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: Ryan Armstrong's Hang Out Page
+description: "A blog about Ryan Armstrong and his cats..."
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "https://ryan-kwan-do.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https:yourusername.githu.io'
 # User settings
 username: Ryan Kwan Do
 user_title: Researcher
 email: hello@ryanarmstrong.me
-twitter_username: ryan-kwan-do
+twitter_username: ryan_kwan_do
 github_username:  ryan-kwan-do
-gplus_username:  loremipsum
-disqus_username: loremipsum
+gplus_username:  rarmstrong
+disqus_username: ryan-kwan-do
 
 # Build settings
 markdown: kramdown
