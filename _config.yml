@@ -1,5 +1,5 @@
 # Site settings
-title: Ryan Armstrong's Hang Out Page
+title: Ryan Armstrong
 description: "A blog about Ryan Armstrong and his cats..."
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 url: "https://ryan-kwan-do.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https:yourusername.githu.io'
