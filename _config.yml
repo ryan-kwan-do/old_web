@@ -16,14 +16,41 @@ disqus_shortname: # disqus_shortname for disqus comment system
 # a new whidow will be open when link is clicked.
 #
 about:
-  - paragraph: This is my home page.
-    text_align: center
+  - paragraph: This is my web home. 
+    text_align: left
+
+  - paragraph: As a doctoral researcher,  I started the UB Doctoral Researchers in Business,
+              an association to bring PhD students in management and organization together.
+              More on that project ?link?. Actual research is important, too---so my supervisor
+              keeps reminding me. A description of my work on performance measurement systems
+              is on ?link?.
+    text_align: left
     links:
-      - name: Book
-        url: https://github.com/kkninjae/book
-        external: true
-      - name: Lang Liu
-        url: http://kkninjae.com/about/
+      - name: here
+        url: https://businessdoctorands.github.io
+        external: false
+      - name: research gate
+        url: https://www.researchgate.net/profile/Ryan_Armstrong4
         external: false
 
+  - paragraph: I pay my way through the PhD mainly through my work with ?link?. For more on my
+               professional side see my ?link? page.  
+    text_align: left
+    links:
+      - name: HireMojo
+        url: https://hiremojo.com
+        external: false
+      - name: Linkedin
+        url: https://www.linkedin.com/in/blendout/
+        external: false        
+
+  - paragraph: On the side I'm into playing around with the ?link?, exploring the Catalonian 
+               countryside on foot or on bike, sustainable gardening, worm farms, eco-construction,
+               reading philosophy, and trying to walk on my hands.
+    text_align: left
+    links:
+      - name: web
+        url: https://github.com/ryan-kwan-do
+        external: false
+  
     
