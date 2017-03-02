@@ -5,6 +5,7 @@ avatar: /assets/img/web_profile_img_small.jpg
 favicon: /assets/img/favicon.ico
 google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
+root: /
 
 # Content for about page.
 # Each paragraph will be a <p> tag which is inserted to about
