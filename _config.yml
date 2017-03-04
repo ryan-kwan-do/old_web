@@ -17,7 +17,7 @@ root: /
 # a new whidow will be open when link is clicked.
 #
 about:
-  - paragraph: This is my web home. 
+  - paragraph: This is my web home. Here is what I am up to&#58;
     text_align: left
 
   - paragraph: As a doctoral researcher,  I started the UB Doctoral Researchers in Business,
@@ -25,7 +25,7 @@ about:
               More on that project ?link?. Actual research is important, too---so my supervisor
               keeps reminding me. A description of my work on performance measurement systems
               is on ?link?.
-    text_align: left
+    text_align: justify
     links:
       - name: here
         url: https://businessdoctorands.github.io
@@ -36,7 +36,7 @@ about:
 
   - paragraph: I pay my way through the PhD mainly through my work with ?link?. For more on my
                professional side see my ?link? page.  
-    text_align: left
+    text_align: justify
     links:
       - name: HireMojo
         url: https://hiremojo.com
@@ -49,7 +49,7 @@ about:
                countryside on foot or on bike, sustainable gardening, worm farms, eco-construction,
                reading philosophy, and trying to walk on my hands. I enjoy communicating in a general sense and welcome frequent interaction with humans and other mammals. 
                Do feel free to contact me, especially if we are related.
-    text_align: left
+    text_align: justify
     links:
       - name: web
         url: https://github.com/ryan-kwan-do
