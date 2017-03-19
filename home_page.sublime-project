@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/ryan-kwan-do/sinatra_project"
 		}
 	]
 }
