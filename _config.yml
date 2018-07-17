@@ -46,7 +46,7 @@ about:
       - name: HireMojo
         url: https://hiremojo.com
         external: false
-      - name: Accolo Business Services
+      - name: "Accolo Business Services"
         url: https://accolo.com
         external: false
         - name: Linkedin
@@ -70,7 +70,7 @@ about:
 
     text_align: justify
     links:
-    - name: realist synthesis
+    - name: "realist synthesis"
             url: https://www.betterevaluation.org/en/evaluation-options/realistsynthesis
             external: false
 
