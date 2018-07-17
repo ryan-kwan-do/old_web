@@ -1,85 +1,57 @@
-title: Ryan's Page
-description: A simple Jekyll theme
-url: http://ryanarmstrong.me
-avatar: /assets/img/web_profile_img_small.jpg
+# basic
+# ============================================================================
+# if your site is serving on https://xxx.github.io, set `baseurl: /`
+# if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
+baseurl: /book
+
+# site title
+title: Book
+
+# site favicon, absolute path required
 favicon: /assets/img/favicon.ico
-google_analytics: # google analytics id
-disqus_shortname: # disqus_shortname for disqus comment system
-root: /
 
-# Content for about page.
-# Each paragraph will be a <p> tag which is inserted to about
-# page. text_align is used to align the text. Default is left.
-# Other two values are center and right. If there are some links
-# in your paragraph, use '?link?' to take the place of a link.
-# And then write the real link under links. name is the link
-# text. url is the link. when external is set as true, then
-# a new whidow will be open when link is clicked.
-#
-about:
-  - paragraph: Welcome to Ryan on the web.
-    text_align: left
+# home button image, absolute path requried
+avatar: /assets/img/avatar.jpg
+# specify meaningful description for your avatar
+avatarInfo: "Tokyo tower"
 
-  - paragraph: "I research problems in organizations and what can be done at them.
-    My interests lie in the challenges relating to the 4th Industrial revolution&#8212
-    technological change, big data, the possibility of attack by robots&#8212and how to navigate them.
-    For humans, all of this change generates quite a bit of uncertainty that can be difficult to deal with.
-    I am currently in the final stages of my PhD at the University of Barcelona,
-    where I spend a good amount of my time writing about the philosophy of organizing and management and what all
-    this means for knowledge creation and practice, especially strategy and performance management.
-    A description of my research activity is on ?link?."
-    text_align: justify
-    links:
-      - name: research gate
-        url: https://www.researchgate.net/profile/Ryan_Armstrong4
-        external: false
+# default variables for post-type page
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comment: true
 
-  - paragraph: Current Projects
-    text_align: justify
 
-  - paragraph: "I also help organizations understand their performance and how to improve it. I have experience working with
-    ?link? and ?link?, helping to simplify big data and communicate it to make better decisions.
-    For more on my professional side see my ?link? page."
+# sass
+# ============================================================================
+sass:
+  sass_dir: _sass
+  style: compressed
 
-    text_align: justify
-    links:
-      - name: HireMojo
-        url: https://hiremojo.com
-        external: false
-      - name: "Accolo Business Services"
-        url: https://accolo.com
-        external: false
-        - name: Linkedin
-        url: https://www.linkedin.com/in/blendout/
-        external: false
 
- - paragraph: "These are the research projects I have underway&#58;
-    1. Organizing for well-being within PhD programs - This is the evolution of the Asociació d'investigadors en formació,
-    a project that tragically failed but whose spirit lives on. An interdisciplinary project which
-    addresses the mental health crisis in PhD programs.
+# exclude none site related files
+# ============================================================================
+exclude:
+  - README.md
+  - LICENSE
+  - github
+  - package.json
+  - package-lock.json
+  - node_modules
 
-    2. Learning or Failing? Towards finding a balance - Organizations need to succeed, but failing is a great way to learn.
-    This project explores the question - How can organizations find the right balance, and what happens if they don't?
 
-    3. Resolving retroductive, abductive, inductive, and deductive approaches to knowledge building in management - These logics
-    are often presented as conflicting. This paper aims to argue that when they work together knowledge building flourishes. A
-    semi-critical realist take.
+# google analytics
+# ============================================================================
+# turn it off -> ga: false
+ga: UA-69579248-1
 
-    4. A stratified view of performance management - This project is a ?link? of the theory that explains performance measurement
-    and management and outlines its many levels"
 
-    text_align: justify
-    links:
-    - name: "realist synthesis"
-            url: https://www.betterevaluation.org/en/evaluation-options/realistsynthesis
-            external: false
-
-  - paragraph: On the side I'm into playing around with the ?link?, exploring the Catalonian
-               countryside on foot or on bike, sustainable gardening, worm farms, eco-construction,
-               reading philosophy, and trying to walk on my hands. I enjoy communicating in a general sense and welcome frequent interaction with humans and other mammals.
-               Do feel free to contact me if you are interested in collaborating.
-    text_align: justify
-    links:
-      - name: web
-        url: https://github.com/ryan-kwan-do
-        external: false
+# disqus
+# ============================================================================
+# turn it off for all posts -> disqus: false
+# turn it off for a particular post -> add `comment: false` to post front matter
+disqus: kkninjae
