@@ -26,8 +26,8 @@ about:
     For humans, all of this change generates quite a bit of uncertainty that can be difficult to deal with.
     I am currently in the final stages of my PhD at the University of Barcelona,
     where I spend a good amount of my time writing about the philosophy of organizing and management and what all
-    this means for knowledge creation and practice, especially strategy and performance management."
-    A description of my research activity is on ?link?.
+    this means for knowledge creation and practice, especially strategy and performance management.
+    A description of my research activity is on ?link?."
     text_align: justify
     links:
       - name: research gate
@@ -38,8 +38,8 @@ about:
     text_align: justify
 
   - paragraph: "I also help organizations understand their performance and how to improve it. I have experience working with
-    ?link? and ?link?, helping to simplify big data and communicate it to make better decisions."
-    For more on my professional side see my ?link? page.
+    ?link? and ?link?, helping to simplify big data and communicate it to make better decisions.
+    For more on my professional side see my ?link? page."
 
     text_align: justify
     links:
@@ -53,7 +53,7 @@ about:
         url: https://www.linkedin.com/in/blendout/
         external: false
 
- - paragraph: These are the research projects I have underway&#58;
+ - paragraph: "These are the research projects I have underway&#58;
     1. Organizing for well-being within PhD programs - This is the evolution of the Asociació d'investigadors en formació,
     a project that tragically failed but whose spirit lives on. An interdisciplinary project which
     addresses the mental health crisis in PhD programs.
@@ -66,7 +66,7 @@ about:
     semi-critical realist take.
 
     4. A stratified view of performance management - This project is a ?link? of the theory that explains performance measurement
-    and management and outlines its many levels
+    and management and outlines its many levels"
 
     text_align: justify
     links:
