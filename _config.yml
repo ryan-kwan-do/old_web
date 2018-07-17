@@ -20,19 +20,7 @@ about:
   - paragraph: Welcome to Ryan on the web.
     text_align: left
 
-  - paragraph: I research problems in organizations and what can be done at them.
-    My interests lie in the challenges relating to the 4th Industrial revolution&#8212
-    technological change, big data, the possibility of attack by robots&#8212and how to navigate them.
-    For humans, all of this change generates quite a bit of uncertainty that can be difficult to deal with.
-    I am currently in the final stages of my PhD at the University of Barcelona,
-    where I spend a good amount of my time writing about the philosophy of organizing and management and what all
-    this means for knowledge creation and practice, especially strategy and performance management.
-    A description of my research activity is on ?link?.
-    text_align: justify
-    links:
-      - name: research gate
-        url: https://www.researchgate.net/profile/Ryan_Armstrong4
-        external: false
+
 
   - paragraph: Current Projects
     text_align: justify
