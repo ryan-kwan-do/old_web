@@ -1,5 +1,5 @@
 ---
-title: Sample Post with All Elements
+title: Coming soon! All posts here are fake posts.
 date: 2015-09-26
 ---
 
