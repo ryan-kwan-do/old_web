@@ -14,6 +14,14 @@ layout: page
     <div class="card__date">{{ page.date | date: "%Y / %m / %d" }}</div>
     {% endif %}
 
+<!-- new by Ryan for tags  -->
+    <span>[
+      {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% endfor %}
+  ]</span>
+
     <div class="article__content">{{ content }}</div>
 
   </div>
@@ -29,6 +37,9 @@ layout: page
     <div class="post__comment--off">Comment is not allowed.</div>
     {% endif %}
   </div>
+
+<!-- Archived tags: correspond to files in tag folder -->
+  {% include archive.html %}
 
 
   <div class="post__pagination">

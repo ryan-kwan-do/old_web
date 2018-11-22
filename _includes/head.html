@@ -21,3 +21,8 @@
 {% if site.ga %}
 {% include ga.html ga = site.ga %}
 {% endif %}
+
+<!-- tags system, added by Ryan -->
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}

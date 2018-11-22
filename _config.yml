@@ -2,6 +2,7 @@
 # ============================================================================
 # if your site is serving on https://xxx.github.io, set `baseurl: /`
 # if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
+# To Update tags, run python tag_generator.py and it will populate /tag appropriately
 baseurl: /
 
 # site title
