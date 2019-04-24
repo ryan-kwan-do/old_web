@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About Me
+title: My Actions
 comment: false
 ---
 
  I work with organizations to learn about complex problems and what can be done at them. My research interests lie in the challenges relating to the 4th Industrial revolution---technological change, big data, the possibility of attack by robots---and how to navigate them through systems thinking. For humans, all of this change generates quite a bit of uncertainty that can be difficult to deal with.
 
- I finished my Ph.D. in Business at the University of Barcelona. Nowadays I spend a good amount of my time writing about the philosophy of organizing and management and what all this means for knowledge creation and practice, especially strategy and performance management. A description of my research activity is on [Research Gate](https://www.researchgate.net/profile/Ryan_Armstrong4).
+ I am currently in the final stages of my PhD at the University of Barcelona, where I spend a good amount of my time writing about the philosophy of organizing and management and what all this means for knowledge creation and practice, especially strategy and performance management. A description of my research activity is on [Research Gate](https://www.researchgate.net/profile/Ryan_Armstrong4).
 
 ### Current Projects
 
