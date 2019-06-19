@@ -22,7 +22,7 @@ So, below is a kind of strategic visioning exercise to make the goals of this sp
 
 1. I created a cognitive map, my absolute favorite way to figure things out in a complex world.
 
-![Event Poster](/img/blogMap.PNG)
+![map](/assets/img/blogMap.PNG)
 
 ### Takeaways: My goals in blogging:
 
